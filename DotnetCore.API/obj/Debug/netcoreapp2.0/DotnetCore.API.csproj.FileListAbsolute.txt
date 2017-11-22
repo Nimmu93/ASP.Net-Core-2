@@ -1,0 +1,11 @@
+D:\DotnetCore.API\DotnetCore.API\bin\Debug\netcoreapp2.0\DotnetCore.API.deps.json
+D:\DotnetCore.API\DotnetCore.API\bin\Debug\netcoreapp2.0\DotnetCore.API.runtimeconfig.json
+D:\DotnetCore.API\DotnetCore.API\bin\Debug\netcoreapp2.0\DotnetCore.API.runtimeconfig.dev.json
+D:\DotnetCore.API\DotnetCore.API\bin\Debug\netcoreapp2.0\DotnetCore.API.dll
+D:\DotnetCore.API\DotnetCore.API\bin\Debug\netcoreapp2.0\DotnetCore.API.pdb
+D:\DotnetCore.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.csprojResolveAssemblyReference.cache
+D:\DotnetCore.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.csproj.CoreCompileInputs.cache
+D:\DotnetCore.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.AssemblyInfoInputs.cache
+D:\DotnetCore.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.AssemblyInfo.cs
+D:\DotnetCore.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.dll
+D:\DotnetCore.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.pdb

@@ -6,6 +6,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json.Serialization;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.Extensions.Logging;
+using NLog.Extensions.Logging;
 
 namespace DotnetCore.API
 {
@@ -16,11 +20,29 @@ namespace DotnetCore.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            //    (options =>
+            //{//MAking it able to convert the out put to xml and json
+            //    options.OutputFormatters.Add(new XmlDataContractSerializerOutputFormatter());
+            //});
+            //Serialize your output 
+            //.AddJsonOptions(o =>
+            //{
+            //    if (o.SerializerSettings.ContractResolver != null)
+            //    {
+            //        var castedResolver = o.SerializerSettings.ContractResolver as DefaultContractResolver;
+            //        castedResolver.NamingStrategy = null;
+            //    }
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            loggerFactory.AddConsole();
+            loggerFactory.AddDebug();
+            //loggerFactory.AddProvider(new NLog.Extensions.Logging.NLogLoggerProvider());
+            loggerFactory.AddNLog();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -29,7 +51,7 @@ namespace DotnetCore.API
             {
                 app.UseExceptionHandler();
             }
-
+            app.UseStatusCodePages();
             app.UseMvc();
 
             //app.Run(async (context) =>

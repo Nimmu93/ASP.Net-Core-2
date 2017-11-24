@@ -9,3 +9,14 @@ D:\DotnetCore.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.Assembly
 D:\DotnetCore.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.AssemblyInfo.cs
 D:\DotnetCore.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.dll
 D:\DotnetCore.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.pdb
+D:\ASP.Net Core 2.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.csprojResolveAssemblyReference.cache
+D:\ASP.Net Core 2.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.csproj.CoreCompileInputs.cache
+D:\ASP.Net Core 2.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.AssemblyInfoInputs.cache
+D:\ASP.Net Core 2.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.AssemblyInfo.cs
+D:\ASP.Net Core 2.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.dll
+D:\ASP.Net Core 2.API\DotnetCore.API\obj\Debug\netcoreapp2.0\DotnetCore.API.pdb
+D:\ASP.Net Core 2.API\DotnetCore.API\bin\Debug\netcoreapp2.0\DotnetCore.API.deps.json
+D:\ASP.Net Core 2.API\DotnetCore.API\bin\Debug\netcoreapp2.0\DotnetCore.API.runtimeconfig.json
+D:\ASP.Net Core 2.API\DotnetCore.API\bin\Debug\netcoreapp2.0\DotnetCore.API.runtimeconfig.dev.json
+D:\ASP.Net Core 2.API\DotnetCore.API\bin\Debug\netcoreapp2.0\DotnetCore.API.dll
+D:\ASP.Net Core 2.API\DotnetCore.API\bin\Debug\netcoreapp2.0\DotnetCore.API.pdb

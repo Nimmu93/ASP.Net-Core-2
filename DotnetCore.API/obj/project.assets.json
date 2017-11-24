@@ -12963,6 +12963,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.3",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.1",
       "Microsoft.NETCore.App >= 2.0.0",
       "NLog.Extensions.Logging >= 1.0.0-rtm-rc2"
     ]
@@ -12977,11 +12978,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\DotnetCore.API\\DotnetCore.API\\DotnetCore.API.csproj",
+      "projectUniqueName": "D:\\ASP.Net Core 2.API\\DotnetCore.API\\DotnetCore.API.csproj",
       "projectName": "DotnetCore.API",
-      "projectPath": "D:\\DotnetCore.API\\DotnetCore.API\\DotnetCore.API.csproj",
+      "projectPath": "D:\\ASP.Net Core 2.API\\DotnetCore.API\\DotnetCore.API.csproj",
       "packagesPath": "C:\\Users\\NimashaJ\\.nuget\\packages\\",
-      "outputPath": "D:\\DotnetCore.API\\DotnetCore.API\\obj\\",
+      "outputPath": "D:\\ASP.Net Core 2.API\\DotnetCore.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13015,6 +13016,10 @@
             "target": "Package",
             "version": "2.0",
             "autoReferenced": true
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "2.0.1"
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",

@@ -1,0 +1,4 @@
+D:\ASP.Net Core 2.API\DotnetCore.API\obj\Release\netcoreapp2.0\DotnetCore.API.csprojResolveAssemblyReference.cache
+D:\ASP.Net Core 2.API\DotnetCore.API\obj\Release\netcoreapp2.0\DotnetCore.API.csproj.CoreCompileInputs.cache
+D:\ASP.Net Core 2.API\DotnetCore.API\obj\Release\netcoreapp2.0\DotnetCore.API.AssemblyInfoInputs.cache
+D:\ASP.Net Core 2.API\DotnetCore.API\obj\Release\netcoreapp2.0\DotnetCore.API.AssemblyInfo.cs

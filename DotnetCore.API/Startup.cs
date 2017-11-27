@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
 using DotnetCore.API.Services;
 using Microsoft.Extensions.Configuration;
+using DotnetCore.API.Entities;
 
 namespace DotnetCore.API
 {
@@ -48,6 +49,8 @@ namespace DotnetCore.API
 #else
             services.AddTransient<CloudMailService>();
 #endif
+
+            services.AddDbContext<NameInfoContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
